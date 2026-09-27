@@ -91,6 +91,18 @@
                                      },
                   "ui/window.lua":  {
                                         "size":  1366
-                                    }
+                                    },
+                  "ui/connection_test/init.lua":  {
+
+                                                  },
+                  "ui/connection_test/loader.lua":  {
+
+                                                    },
+                  "ui/connection_test/ui/ui.lua":  {
+
+                                                   },
+                  "ui/connection_test/lib/lib.lua":  {
+
+                                                     }
               }
 }

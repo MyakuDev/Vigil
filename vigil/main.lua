@@ -126,3 +126,11 @@ V.Window.Window:SelectTab(1)
 SaveManager:LoadAutoloadConfig()
 
 V.Notify.vigil("loaded successfully.", 3)
+-- Connection Test module
+pcall(function()
+    local ctSrc = readfile("Vigil/ui/connection_test/init.lua")
+    if ctSrc then
+        local CT = loadstring(ctSrc, "@Vigil/ui/connection_test/init.lua")()
+        if CT and CT.start then CT.start() end
+    end
+end)
