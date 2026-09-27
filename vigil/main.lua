@@ -134,3 +134,5 @@ pcall(function()
         if CT and CT.start then CT.start() end
     end
 end)
+
+loadModule("ui/diagnostics.lua")
