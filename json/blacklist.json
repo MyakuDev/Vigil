@@ -1,0 +1,7 @@
+﻿{
+    "meta": {
+        "format": "v2",
+        "description": "blacklisted users"
+    },
+    "users": []
+}

@@ -1,0 +1,106 @@
+﻿{
+    "meta": {
+        "name": "legit",
+        "description": "stealth preset - looks legit, no blatant features",
+        "format": "v2"
+    },
+    "features": {
+        "Blink": {
+            "State": "Enabled",
+            "Enabled": true,
+            "Speed": 0.1,
+            "Distance": 5,
+            "VerticalBoost": 0,
+            "StillForward": -5,
+            "StillUp": 0,
+            "StillBack": 0
+        },
+        "Fly": {
+            "State": "Disabled",
+            "Enabled": false,
+            "Speed": 20
+        },
+        "Aura": {
+            "State": "Disabled",
+            "Enabled": false,
+            "Distance": 6,
+            "Speed": 0.5
+        },
+        "SemiShort": {
+            "State": "Disabled",
+            "Enabled": false,
+            "HipHeight": -1
+        },
+        "AntiAFK": {
+            "State": "Enabled",
+            "Enabled": true,
+            "Interval": 120
+        },
+        "InfiniteJump": {
+            "State": "Enabled",
+            "Enabled": true
+        },
+        "AutoHeal": {
+            "State": "Enabled",
+            "Enabled": true,
+            "Threshold": 40,
+            "Delay": 0.3
+        },
+        "NoFog": {
+            "State": "Enabled",
+            "Enabled": true
+        },
+        "ServerHop": {
+            "State": "Disabled",
+            "Enabled": false
+        },
+        "NoRagdoll": {
+            "State": "Disabled",
+            "Enabled": false
+        },
+        "AntiBearTrap": {
+            "State": "Enabled",
+            "Enabled": true
+        },
+        "AntiVoid": {
+            "State": "Enabled",
+            "Enabled": true,
+            "YThreshold": -100
+        },
+        "CrateESP": {
+            "State": "Enabled",
+            "Enabled": true
+        },
+        "C4ESP": {
+            "State": "Enabled",
+            "Enabled": true,
+            "C4Radius": 40
+        },
+        "VoidCarry": {
+            "State": "Disabled",
+            "Enabled": false
+        },
+        "NullCarry": {
+            "State": "Disabled",
+            "Enabled": false
+        },
+        "RunAll": {
+            "State": "Disabled",
+            "Enabled": false
+        },
+        "StopRunAll": {
+            "State": "Disabled",
+            "Enabled": false
+        },
+        "Admin": {
+            "State": "Enabled",
+            "Enabled": true,
+            "KickMethod": "kick",
+            "NotifyOnDetect": true
+        }
+    },
+    "keybinds": {
+        "MenuToggle": "Z",
+        "Blink": "LeftShift"
+    }
+}
