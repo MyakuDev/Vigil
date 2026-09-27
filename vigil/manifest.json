@@ -1,6 +1,6 @@
 {
     "version":  1,
-    "updated":  "2026-09-27T08:37:50Z",
+    "updated":  "2026-09-27T08:41:54Z",
     "files":  {
                   "main.lua":  {
                                    "size":  5024
@@ -50,6 +50,12 @@
                   "lib/updater.lua":  {
                                           "size":  2359
                                       },
+                  "loader/loader.lua":  {
+                                            "size":  584
+                                        },
+                  "loader/reset.lua":  {
+                                           "size":  1315
+                                       },
                   "ui/abuse.lua":  {
                                        "size":  1285
                                    },
