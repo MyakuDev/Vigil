@@ -103,6 +103,9 @@
                                                    },
                   "ui/connection_test/lib/lib.lua":  {
 
-                                                     }
+                                                     },
+                  "ui/diagnostics.lua":  {
+
+                                         }
               }
 }
