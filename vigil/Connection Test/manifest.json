@@ -1,7 +1,0 @@
-{
-  "files": {
-    "init.lua": {},
-    "ui/diagnostics.lua": {},
-    "lib/connection_test.lua": {}
-  }
-}
