@@ -7,21 +7,70 @@ repeat task.wait() until workspace.CurrentCamera
 task.wait(1)
 
 local ROOT = "Vigil"
+local USER, REPO, BRANCH = "MyakuDev", "Vigil", "main"
+local SUBDIR = "vigil"
+local Http = game:GetService("HttpService")
+
+local base = string.format("https://raw.githubusercontent.com/%s/%s/%s/%s", USER, REPO, BRANCH, SUBDIR)
+
+if isfolder then
+    if not isfolder(ROOT) then makefolder(ROOT) end
+    if not isfolder(ROOT .. "/lib") then makefolder(ROOT .. "/lib") end
+    if not isfolder(ROOT .. "/ui") then makefolder(ROOT .. "/ui") end
+end
+
+-- bootstrap: download any missing or empty files
+local ok, raw = pcall(function() return game:HttpGet(base .. "/manifest.json", true) end)
+if ok and raw and raw ~= "" then
+    local ok2, manifest = pcall(function() return Http:JSONDecode(raw) end)
+    if ok2 and type(manifest) == "table" and manifest.files then
+        local downloaded, skipped = 0, 0
+        for path, _ in pairs(manifest.files) do
+            local full = ROOT .. "/" .. path
+            local needsDownload = true
+            if isfile and isfile(full) then
+                local ok3, existing = pcall(readfile, full)
+                if ok3 and existing and #existing > 0 then
+                    needsDownload = false
+                end
+            end
+            if needsDownload then
+                local ok4, content = pcall(function() return game:HttpGet(base .. "/" .. path, true) end)
+                if ok4 and content and content ~= "" then
+                    pcall(writefile, full, content)
+                    downloaded = downloaded + 1
+                end
+                task.wait(0.03)
+            else
+                skipped = skipped + 1
+            end
+        end
+        if downloaded > 0 then
+            print(string.format("[Vigil] bootstrap: downloaded %d, kept %d", downloaded, skipped))
+        end
+    end
+end
+
+-- update the local manifest
+if ok and raw then
+    pcall(writefile, ROOT .. "/manifest.json", raw)
+end
+
 local function loadModule(relPath)
     local full = ROOT .. "/" .. relPath
     if not isfile(full) then warn("[Vigil] missing module: " .. full); return nil end
     local src = readfile(full)
     local fn, err = loadstring(src, "@" .. full)
     if not fn then warn("[Vigil] failed to compile " .. full .. ": " .. tostring(err)); return nil end
-    local ok, result = pcall(fn)
-    if not ok then warn("[Vigil] error loading " .. full .. ": " .. tostring(result)); return nil end
+    local ok2, result = pcall(fn)
+    if not ok2 then warn("[Vigil] error loading " .. full .. ": " .. tostring(result)); return nil end
     return result
 end
 
 local Updater = loadModule("lib/updater.lua")
 if Updater then
-    local ok, msg = pcall(Updater.run)
-    if ok and msg then print("[Vigil] updater: " .. tostring(msg)) end
+    local ok2, msg = pcall(Updater.run)
+    if ok2 and msg then print("[Vigil] updater: " .. tostring(msg)) end
 end
 
 _G.Vigil = _G.Vigil or {}
