@@ -9,4 +9,8 @@ Movement:textbox({Name = "Blink Distance",Default = "15",Callback = function(v) 
 Movement:textbox({Name = "Vertical Boost",Default = "5",Callback = function(v) Blink.VerticalBoost = tonumber(v) or Blink.VerticalBoost end})
 Movement:textbox({Name = "Still Forward",Default = "-15",Callback = function(v) Blink.StillForward = tonumber(v) or Blink.StillForward end})
 Movement:textbox({Name = "Still Up",Default = "15",Callback = function(v) Blink.StillUp = tonumber(v) or Blink.StillUp end})
+<<<<<<< HEAD
 Movement:textbox({Name = "Still Back",Default = "-5",Callback = function(v) Blink.StillBack = tonumber(v) or Blink.StillBack end})
+=======
+Movement:textbox({Name = "Still Back",Default = "-5",Callback = function(v) Blink.StillBack = tonumber(v) or Blink.StillBack end})
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

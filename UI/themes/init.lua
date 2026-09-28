@@ -49,4 +49,8 @@ _G.SetTheme = function(name)
         ActiveTheme = name
         if _G.NotifySuccess then NotifySuccess("theme: " .. name) end
     end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

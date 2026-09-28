@@ -291,4 +291,8 @@ for name, cmd in pairs(CMD) do
             gui:set_status(cmd.Usage .. " - " .. cmd.Desc)
         end,
     })
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

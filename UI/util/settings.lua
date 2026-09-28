@@ -11,4 +11,8 @@ _G.UISettings = _G.UISettings or {
 _G.UISetSetting = function(key, value)
     UISettings[key] = value
     if _G.UINotify then UINotify(key .. " = " .. tostring(value)) end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

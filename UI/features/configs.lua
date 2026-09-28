@@ -38,4 +38,8 @@ ConfigsTab:textbox({Name = "Auto Load Config",Default = ConfigSystem.AutoLoad or
     ConfigSystem.AutoLoad = v
     SaveSettings()
     NotifySuccess("autoload set: " .. v)
+<<<<<<< HEAD
 end})
+=======
+end})
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

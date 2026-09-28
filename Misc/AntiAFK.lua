@@ -15,4 +15,8 @@ if not afkRunning then
             VirtualUser:ClickButton2(Vector2.new())
         end
     end)
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

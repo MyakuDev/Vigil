@@ -7,4 +7,8 @@ _G.VigilThemes.Light = {
     Background = Color3.fromRGB(240, 240, 240),
     Text = Color3.fromRGB(30, 30, 30),
     SubText = Color3.fromRGB(100, 100, 100),
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

@@ -37,4 +37,8 @@ DebugTab:button({Name = "Player List",Callback = function()
         table.insert(out, string.format("%s (%s) [%d]", plr.Name, plr.DisplayName, plr.UserId))
     end
     Notify("Players (" .. #out .. ")", table.concat(out, ", "), 8)
+<<<<<<< HEAD
 end})
+=======
+end})
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

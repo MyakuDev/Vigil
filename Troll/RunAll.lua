@@ -17,4 +17,8 @@ if not runAllRunning then
             charFunEvent:FireServer("Run", RunAll.RunValue)
         end
     end)
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

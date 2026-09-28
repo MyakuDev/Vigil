@@ -50,4 +50,8 @@ _G.getRagdollEvent = function()
     local ragdoll = char:FindFirstChild("Ragdoll")
     if not ragdoll then return nil end
     return ragdoll:FindFirstChild("RemoteEvent")
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

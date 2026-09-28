@@ -32,4 +32,8 @@ end
 _G.VigilState = function(feature)
     if feature == nil then return "Disabled" end
     return feature.Enabled and "Enabled" or "Disabled"
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

@@ -6,4 +6,8 @@ Movement:toggle({Name = "Fly",Description = "space = up, left ctrl = down.",Defa
     if s and _G.StartFly then StartFly() end
     if not s and _G.StopFly then StopFly() end
 end})
+<<<<<<< HEAD
 Movement:textbox({Name = "Fly Speed",Default = "50",Callback = function(v) Fly.Speed = tonumber(v) or Fly.Speed end})
+=======
+Movement:textbox({Name = "Fly Speed",Default = "50",Callback = function(v) Fly.Speed = tonumber(v) or Fly.Speed end})
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

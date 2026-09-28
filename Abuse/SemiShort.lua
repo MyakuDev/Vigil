@@ -31,4 +31,8 @@ if not semiRunning then
         rootPart.CFrame = newCFrame + Vector3.new(0, hum.HipHeight or 4, 0)
         rootPart.Velocity = Vector3.zero
     end)
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

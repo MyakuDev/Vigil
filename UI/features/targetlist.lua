@@ -21,4 +21,8 @@ end)
 Players.PlayerRemoving:Connect(function(plr)
     if plr == TrollTarget.Player then TrollTarget.Player = nil end
     if dd and dd.Refresh then dd:Refresh(refreshPlayerList()) end
+<<<<<<< HEAD
 end)
+=======
+end)
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

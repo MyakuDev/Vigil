@@ -268,7 +268,11 @@ _G.ConfigInit = function()
     end
 end
 
+<<<<<<< HEAD
 ConfigInit()
+=======
+ConfigInit()
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9
 
 -- ============================================================
 -- presets
@@ -325,4 +329,8 @@ _G.ConfigDeletePreset = function(name)
         return true
     end
     return false, "delete failed"
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

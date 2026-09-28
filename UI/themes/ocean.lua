@@ -7,4 +7,8 @@ _G.VigilThemes.Ocean = {
     Background = Color3.fromRGB(15, 25, 35),
     Text = Color3.fromRGB(220, 240, 255),
     SubText = Color3.fromRGB(140, 170, 200),
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

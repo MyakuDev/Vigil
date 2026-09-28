@@ -25,4 +25,8 @@ _G.VigilRefs.ReplicatedStorage = ReplicatedStorage
 _G.VigilRefs.TeleportService   = TeleportService
 _G.VigilRefs.HttpService       = HttpService
 _G.VigilRefs.VirtualUser       = VirtualUser
+<<<<<<< HEAD
 _G.VigilRefs.LocalPlayer       = LocalPlayer
+=======
+_G.VigilRefs.LocalPlayer       = LocalPlayer
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

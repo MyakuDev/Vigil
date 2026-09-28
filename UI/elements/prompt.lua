@@ -7,4 +7,8 @@ _G.UIPrompt = function(tab, opts)
         Text = opts.Text or "",
         Buttons = opts.Buttons or {},
     })
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

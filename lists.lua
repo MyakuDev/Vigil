@@ -254,4 +254,8 @@ Players.PlayerAdded:Connect(function(plr)
 end)
 
 -- initial load
+<<<<<<< HEAD
 LoadLists()
+=======
+LoadLists()
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

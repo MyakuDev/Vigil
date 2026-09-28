@@ -60,4 +60,8 @@ _G.RunAdminDetection = function()
     Players.PlayerAdded:Connect(check)
 end
 
+<<<<<<< HEAD
 RunAdminDetection()
+=======
+RunAdminDetection()
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

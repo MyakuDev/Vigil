@@ -8,4 +8,8 @@ _G.UIToggle = function(tab, opts)
         Default = opts.Default or false,
         Callback = opts.Callback or function() end,
     })
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

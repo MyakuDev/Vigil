@@ -19,4 +19,8 @@ _G.UIFormat.Truncate = function(str, len)
     len = len or 30
     if #str > len then return str:sub(1, len - 3) .. "..." end
     return str
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

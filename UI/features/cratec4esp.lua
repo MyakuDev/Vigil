@@ -8,4 +8,8 @@ Misc:toggle({Name = "C4 ESP",Description = "highlights C4.",Default = false,Call
     C4ESP.Enabled = s
     C4ESP.State = s and "Enabled" or "Disabled"
 end})
+<<<<<<< HEAD
 Misc:textbox({Name = "C4 ESP Radius",Default = "40",Callback = function(v) C4ESP.C4Radius = tonumber(v) or C4ESP.C4Radius end})
+=======
+Misc:textbox({Name = "C4 ESP Radius",Default = "40",Callback = function(v) C4ESP.C4Radius = tonumber(v) or C4ESP.C4Radius end})
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

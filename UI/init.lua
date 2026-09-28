@@ -36,4 +36,8 @@ loadUI("UI/elements/init.lua")
 loadUI("UI/tabs/init.lua")
 
 -- features
+<<<<<<< HEAD
 loadUI("UI/features/init.lua")
+=======
+loadUI("UI/features/init.lua")
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

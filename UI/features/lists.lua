@@ -42,4 +42,8 @@ ListsTab:button({Name = "Clear Blacklist",Callback = function()
     ListData.Blacklist.users = {}
     SaveLists()
     NotifySuccess("cleared")
+<<<<<<< HEAD
 end})
+=======
+end})
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

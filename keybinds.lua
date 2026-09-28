@@ -161,4 +161,8 @@ _G.KeybindsSave = function()
     if ok then pcall(writefile, KB_PATH, encoded) end
 end
 
+<<<<<<< HEAD
 KeybindsLoad()
+=======
+KeybindsLoad()
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

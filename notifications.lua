@@ -14,4 +14,8 @@ end
 
 _G.NotifySuccess = function(text) Notify("Success", text, 2) end
 _G.NotifyError   = function(text) Notify("Error", text, 3) end
+<<<<<<< HEAD
 _G.NotifyInfo    = function(text) Notify("Info", text, 2) end
+=======
+_G.NotifyInfo    = function(text) Notify("Info", text, 2) end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

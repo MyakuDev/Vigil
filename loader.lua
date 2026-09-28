@@ -56,4 +56,8 @@ loadFile(root .. "/Troll/RunAll.lua")
 loadFile(root .. "/Troll/StopRunAll.lua")
 
 loadFile(root .. "/UI/init.lua")
+<<<<<<< HEAD
 loadFile(root .. "/Commands.lua")
+=======
+loadFile(root .. "/Commands.lua")
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

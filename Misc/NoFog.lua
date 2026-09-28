@@ -17,4 +17,8 @@ Misc:toggle({Name = "No Fog",Description = "removes lighting fog.",Default = fal
         Lighting.FogStart = NoFog.OldFogStart or 0
         Lighting.FogColor = NoFog.OldFogColor or Color3.new(0.5, 0.5, 0.5)
     end
+<<<<<<< HEAD
 end})
+=======
+end})
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

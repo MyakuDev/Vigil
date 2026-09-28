@@ -7,4 +7,8 @@ _G.VigilThemes.Blood = {
     Background = Color3.fromRGB(25, 10, 10),
     Text = Color3.fromRGB(240, 200, 200),
     SubText = Color3.fromRGB(180, 120, 120),
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

@@ -17,4 +17,8 @@ how to use:
 
 how to add your own:
   - drop a .json file in this folder matching the format
+<<<<<<< HEAD
   - it will appear in the Presets dropdown on next reload
+=======
+  - it will appear in the Presets dropdown on next reload
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

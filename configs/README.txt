@@ -16,4 +16,8 @@ usage:
 notes:
   - configs are plain JSON and editable outside the game
   - config save captures feature states + keybind assignments
+<<<<<<< HEAD
   - "default" is a safe fallback
+=======
+  - "default" is a safe fallback
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

@@ -16,4 +16,8 @@ _G.UIListThemes = function()
     end
     table.sort(out)
     return out
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 56227c581261dfd7db93f9fb6056a16976bc89e9

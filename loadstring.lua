@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MyakuDev/Vigil/refs/heads/main/Main.lua"))()
