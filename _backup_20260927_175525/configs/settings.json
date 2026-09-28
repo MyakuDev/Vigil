@@ -1,0 +1,39 @@
+﻿{
+    "meta": {
+        "format": "v2",
+        "description": "vigil main settings"
+    },
+    "theme": "Serika",
+    "menuKey": "Z",
+    "notifications": {
+        "State": "Enabled",
+        "Enabled": true
+    },
+    "whitelist": {
+        "State": "Disabled",
+        "Enabled": false
+    },
+    "blacklist": {
+        "State": "Disabled",
+        "Enabled": false
+    },
+    "autoLoadConfig": "",
+    "adminDetection": {
+        "State": "Enabled",
+        "Enabled": true,
+        "KickMethod": "kick",
+        "NotifyOnDetect": true
+    },
+    "ui": {
+        "animations": {
+            "State": "Enabled",
+            "Enabled": true
+        },
+        "animationSpeed": 0.2,
+        "accentColor": "#7289DA",
+        "showTooltips": {
+            "State": "Enabled",
+            "Enabled": true
+        }
+    }
+}

@@ -1,0 +1,27 @@
+﻿{
+    "meta": {"format": "v2", "description": "global keybinds"},
+    "keybinds": {
+        "MenuToggle": {"Key": "Z", "State": "Enabled"},
+        "Blink": {"Key": "LeftShift", "State": "Enabled"},
+        "Fly": {"Key": "F", "State": "Enabled"},
+        "Aura": {"Key": null, "State": "Disabled"},
+        "SemiShort": {"Key": null, "State": "Disabled"},
+        "AntiAFK": {"Key": null, "State": "Disabled"},
+        "InfiniteJump": {"Key": null, "State": "Disabled"},
+        "AutoHeal": {"Key": null, "State": "Disabled"},
+        "NoFog": {"Key": null, "State": "Disabled"},
+        "Reset": {"Key": null, "State": "Disabled"},
+        "Respawn": {"Key": null, "State": "Disabled"},
+        "Rejoin": {"Key": null, "State": "Disabled"},
+        "ServerHop": {"Key": null, "State": "Disabled"},
+        "NoRagdoll": {"Key": null, "State": "Disabled"},
+        "AntiBearTrap": {"Key": null, "State": "Disabled"},
+        "AntiVoid": {"Key": null, "State": "Disabled"},
+        "CrateESP": {"Key": null, "State": "Disabled"},
+        "C4ESP": {"Key": null, "State": "Disabled"},
+        "VoidCarry": {"Key": null, "State": "Disabled"},
+        "NullCarry": {"Key": null, "State": "Disabled"},
+        "RunAll": {"Key": null, "State": "Disabled"},
+        "StopRunAll": {"Key": null, "State": "Disabled"}
+    }
+}
